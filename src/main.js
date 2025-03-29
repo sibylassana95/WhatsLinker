@@ -53,6 +53,26 @@ function generateQR(link) {
   })
 }
 
+function updateButtonStates(phone) {
+  const copyBtn = document.querySelector('#copyBtn')
+  const qrBtn = document.querySelector('#qrBtn')
+  const qrCanvas = document.querySelector('#qrcode')
+
+  if (!phone.trim()) {
+    copyBtn.disabled = true
+    qrBtn.disabled = true
+    copyBtn.classList.add('opacity-50', 'cursor-not-allowed')
+    qrBtn.classList.add('opacity-50', 'cursor-not-allowed')
+    qrCanvas.classList.add('hidden')
+    qrBtn.textContent = 'Afficher le QR Code'
+  } else {
+    copyBtn.disabled = false
+    qrBtn.disabled = false
+    copyBtn.classList.remove('opacity-50', 'cursor-not-allowed')
+    qrBtn.classList.remove('opacity-50', 'cursor-not-allowed')
+  }
+}
+
 app.innerHTML = `
   <div class="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
     <div class="max-w-2xl mx-auto">
@@ -96,10 +116,10 @@ app.innerHTML = `
           
           <div class="flex items-center justify-between">
             <canvas id="qrcode" class="hidden"></canvas>
-            <button id="qrBtn" class="btn btn-secondary">
+            <button id="qrBtn" class="btn btn-secondary opacity-50 cursor-not-allowed" disabled>
               Afficher le QR Code
             </button>
-            <button id="copyBtn" class="btn btn-primary">
+            <button id="copyBtn" class="btn btn-primary opacity-50 cursor-not-allowed" disabled>
               Copier le lien
             </button>
           </div>
@@ -122,12 +142,15 @@ function updateLink() {
   currentLink = generateWhatsAppLink(phone, message)
   updatePreview(phone, message)
   generateQR(currentLink)
+  updateButtonStates(phone)
 }
 
 phoneInput.addEventListener('input', updateLink)
 messageInput.addEventListener('input', updateLink)
 
 qrBtn.addEventListener('click', () => {
+  if (!phoneInput.value.trim()) return
+  
   qrCanvas.classList.toggle('hidden')
   qrBtn.textContent = qrCanvas.classList.contains('hidden') 
     ? 'Afficher le QR Code' 
@@ -135,10 +158,11 @@ qrBtn.addEventListener('click', () => {
 })
 
 copyBtn.addEventListener('click', () => {
-  if (currentLink) {
+  if (currentLink && phoneInput.value.trim()) {
     copyToClipboard(currentLink)
   }
 })
 
-// Initial preview
+// Initial states
 updatePreview('', '')
+updateButtonStates('')
