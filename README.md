@@ -21,7 +21,7 @@ WhatsLinker est une application web moderne qui permet de générer facilement d
 
 1. Clonez le repository
 ```bash
-git clone https://github.com/votre-username/whatslinker.git
+git clone https://github.com/sibylassana95/WhatsLinker.git
 ```
 
 2. Installez les dépendances
