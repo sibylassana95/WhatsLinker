@@ -51,6 +51,19 @@ npm run build
 
 MIT
 
-## Auteur
+## 👤 Auteur 
 
-[Votre nom]
+[![LASSANA SIBY](https://avatars.githubusercontent.com/u/103085452?u=13ace4d88a52056741734e0f802ca7c0053e1e80&v=4&s=40)](https://github.com/sibylassana95)
+
+Siby Lassana - [@sibyog13](https://twitter.com/sibyog13) - sibyamara95@gmail.com
+
+## 📧 Contact
+
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://sibylassana.com/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sibylassana/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/sibyog13)
+---
+
+<div align="center">
+  Développé avec ❤️
+</div>
