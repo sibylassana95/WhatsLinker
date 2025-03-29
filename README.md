@@ -4,12 +4,12 @@ WhatsLinker est une application web moderne qui permet de générer facilement d
 
 ## Fonctionnalités
 
-- 📱 Génération de liens WhatsApp personnalisés
-- 💬 Prévisualisation en temps réel du message
-- 🔗 Copie rapide du lien généré
-- 📷 Génération de QR code pour un partage facile
-- 🎨 Interface moderne et responsive
-- 💻 Compatible avec tous les appareils
+-  Génération de liens WhatsApp personnalisés
+-  Prévisualisation en temps réel du message
+-  Copie rapide du lien généré
+-  Génération de QR code pour un partage facile
+-  Interface moderne et responsive
+-  Compatible avec tous les appareils
 
 ## Technologies utilisées
 
@@ -51,13 +51,13 @@ npm run build
 
 MIT
 
-## 👤 Auteur 
+## Auteur 
 
 [![LASSANA SIBY](https://avatars.githubusercontent.com/u/103085452?u=13ace4d88a52056741734e0f802ca7c0053e1e80&v=4&s=40)](https://github.com/sibylassana95)
 
 Siby Lassana - [@sibyog13](https://twitter.com/sibyog13) - sibyamara95@gmail.com
 
-## 📧 Contact
+## Contact
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://sibylassana.com/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sibylassana/)
