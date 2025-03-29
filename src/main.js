@@ -117,7 +117,7 @@ app.innerHTML = `
                 type="tel"
                 id="phone"
                 class="input bg-white dark:bg-gray-700 text-gray-900 dark:text-white dark:border-gray-600"
-                placeholder="Ex: 33612345678"
+                placeholder="Ex: 784502133"
               >
             </div>
             
@@ -149,6 +149,29 @@ app.innerHTML = `
             </button>
           </div>
         </div>
+
+        <footer class="text-center mt-8 pb-8">
+          <div class="flex justify-center space-x-4 mb-4">
+            <a href="https://www.behance.net/sibylassana" class="text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-500 transition-colors">
+              <i class="fab fa-behance text-2xl"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sibylassana/" class="text-blue-400 dark:text-blue-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors">
+              <i class="fab fa-linkedin text-2xl"></i>
+            </a>
+            <a href="https://instagram.com/siby_global" class="text-pink-500 dark:text-pink-400 hover:text-pink-600 dark:hover:text-pink-500 transition-colors">
+              <i class="fab fa-instagram text-2xl"></i>
+            </a>
+            <a href="https://twitter.com/sibyog13" class="text-blue-300 dark:text-blue-200 hover:text-blue-400 dark:hover:text-blue-300 transition-colors">
+              <i class="fab fa-twitter text-2xl"></i>
+            </a>
+            <a href="http://github.com/sibylassana95/" class="text-gray-800 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-500 transition-colors">
+              <i class="fab fa-github text-2xl"></i>
+            </a>
+          </div>
+          <p class="text-sm text-gray-600 dark:text-gray-400">
+            © ${new Date().getFullYear()} WhatsLinker. Créé par <a href="https://sibyshop.vercel.app/" class="text-green-600 dark:text-green-400 hover:text-green-700 dark:hover:text-green-500 transition-colors">Siby Lassana</a>. Tous droits réservés.
+          </p>
+        </footer>
       </div>
     </div>
   </div>
