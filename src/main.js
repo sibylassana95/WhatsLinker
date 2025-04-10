@@ -169,7 +169,7 @@ app.innerHTML = `
             </a>
           </div>
           <p class="text-sm text-gray-600 dark:text-gray-400">
-            © ${new Date().getFullYear()} WhatsLinker. Créé par <a href="https://sibyshop.vercel.app/" class="text-green-600 dark:text-green-400 hover:text-green-700 dark:hover:text-green-500 transition-colors">Siby Lassana</a>. Tous droits réservés.
+            © ${new Date().getFullYear()} WhatsLinker. Créé par <a href="https://sibylassana.vercel.app" class="text-green-600 dark:text-green-400 hover:text-green-700 dark:hover:text-green-500 transition-colors">Siby Lassana</a>. Tous droits réservés.
           </p>
         </footer>
       </div>
